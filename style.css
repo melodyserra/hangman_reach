@@ -1,0 +1,43 @@
+#words {
+	padding:20px;
+	font-size:2.5em;
+	color:#FFF;
+	margin-top:15%;
+	text-align:center;
+}
+
+.guessed-words-container {
+	width:100%;
+	border:#000 2px solid;
+	margin-left:auto;
+	margin-left:-44px;
+	padding:20px;
+}
+
+#guessed-words {
+	overflow:hidden;
+}
+
+.hangman-container {
+	overflow:hidden;
+	margin-top:40px;
+}
+
+.hangman-column-one {
+	float:left;
+	width:45%;
+}
+
+.hangman-column-two {
+	float:right;
+	width:45%;
+}
+
+#hanger-holder {
+	text-align:center;
+}
+
+#hanger-holder img {
+	width:100%;
+	max-width:350px;
+}
